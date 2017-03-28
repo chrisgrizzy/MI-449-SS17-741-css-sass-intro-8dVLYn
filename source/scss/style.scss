@@ -1,0 +1,86 @@
+$primary-color: #1a090d;
+$second-color: #ead94c;
+$third-color: #95e06c;
+$fourth-color: #bac7be;
+$font-base-size: 20px;
+$base-raidus: 10px;
+$serif-fonts: Georgia, Cambria, "Times New Roman", serif;
+
+p {
+  color: $primary-color;
+  font-family: $serif-fonts;
+}
+
+a {
+  color: invert($third-color);
+}
+
+button {
+  font-size: $font-base-size;
+  color: $primary-color;
+  border-color: $primary-color;
+  background-color: lighten($primary-color, 50%);
+}
+
+figure {
+  font-size: $font-base-size;
+}
+
+input {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+}
+
+input[type="text"] {
+  border-radius: $base-raidus;
+}
+
+input[type="password"] {
+  border-radius: $base-raidus;
+}
+
+textarea {
+  font-family: $serif-fonts;
+  font-size: $font-base-size;
+  border-radius: $font-base-size;
+}
+
+img {
+  border-radius: $base-raidus;
+}
+
+h1 {
+  color: $primary-color;
+  font-size: $font-base-size * 2.25;
+}
+
+h2 {
+  color: lighten($primary-color, 40%);
+  font-size: $font-base-size * 2;
+}
+
+h3 {
+  color: $second-color;
+  font-size: $font-base-size * 1.55;
+}
+
+h4 {
+  color: $fourth-color;
+  font-size: $font-base-size * 1.45;
+}
+
+h5 {
+  color: darken($fourth-color, 30%);
+  font-size: $font-base-size * 1.15;
+}
+
+h6 {
+  color: ligten($fourth-color, 80%);
+  font-size: $font-base-size * 0.75;
+}
+
+table {
+  font-family: $serif-fonts;
+  color: $fourth-color;
+  font-size: $font-base-size;
+}
