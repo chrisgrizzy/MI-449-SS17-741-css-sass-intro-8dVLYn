@@ -3,7 +3,7 @@ $second-color: #ead94c;
 $third-color: #95e06c;
 $fourth-color: #bac7be;
 $font-base-size: 20px;
-$base-raidus: 10px;
+$base-radius: 10px;
 $serif-fonts: Georgia, Cambria, "Times New Roman", serif;
 
 p {
@@ -16,6 +16,7 @@ a {
 }
 
 button {
+  border-radius: $base-radius;
   font-size: $font-base-size;
   color: $primary-color;
   border-color: $primary-color;
@@ -27,26 +28,27 @@ figure {
 }
 
 input {
+  border-radius: $base-radius;
   font-family: $serif-fonts;
   font-size: $font-base-size;
 }
 
 input[type="text"] {
-  border-radius: $base-raidus;
+  border-radius: $base-radius;
 }
 
 input[type="password"] {
-  border-radius: $base-raidus;
+  border-radius: $base-radius;
 }
 
 textarea {
   font-family: $serif-fonts;
   font-size: $font-base-size;
-  border-radius: $font-base-size;
+  border-radius: $base-radius;
 }
 
 img {
-  border-radius: $base-raidus;
+  border-radius: $base-radius;
 }
 
 h1 {
